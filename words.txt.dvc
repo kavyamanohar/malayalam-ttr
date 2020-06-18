@@ -1,7 +1,3 @@
-md5: 6d6742cc72d954347fb25c0ad4ee7920
 outs:
-- md5: 7c5139847221c76709c20a0703e70a08
+- md5: b5192adbea42e7bc8fbe76398b86db83
   path: words.txt
-  cache: true
-  metric: false
-  persist: false
