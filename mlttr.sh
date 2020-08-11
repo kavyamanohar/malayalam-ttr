@@ -1,8 +1,10 @@
 #!/bin/bash
 filename='words.txt'
 outfile='ttr.tsv'
-#echo -e "Number of types in a set of 500 tokens" > $outfile
-index=98001
+#Count the number of types in a window of 500 tokens and write it to outfile
+#To begin with Set start=1, index=1 and loop with condition $index -le 1000. 
+#Next set start=1001, index=1001 and loop with $index -le 2000
+#Repeat for any interval for which you need to determine Type-Token Relationshipindex=98001
 start=98001
 end=$(( $start + 499 ))
 while [ $index -le 100000 ]
